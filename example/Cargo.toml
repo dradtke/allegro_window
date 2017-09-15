@@ -1,0 +1,13 @@
+[package]
+name = "hello"
+version = "0.1.0"
+authors = ["Damien Radtke <damienradtke@gmail.com>"]
+
+[dependencies]
+allegro = "0.0.30"
+pistoncore-input = "0.19.0"
+pistoncore-window = "0.28.0"
+pistoncore-event_loop = "0.33.0"
+
+[dependencies.allegro_window]
+path = ".."
